@@ -1,0 +1,32 @@
+.receitas-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.receita {
+	margin: 10px;
+	max-width: 350px;
+	padding: 10px;
+	background-color: rgb(246, 240, 202);
+	text-align: left;
+}
+
+.receita h2 {
+	margin-top: 10px;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 30px;
+}
+
+.receita ul {
+	margin-left: 20%;
+	margin-top: 5%;
+}
+
+.receita-thumb {
+	width: 330px;
+	height: 200px;
+	object-fit: fill;
+	align-content: center;
+}
